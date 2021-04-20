@@ -1,0 +1,31 @@
+#barra{
+	width: 500px;
+	height: 25px;
+	background-color: #dedede;
+	border-radius: 4px;
+	box-shadow: inset #BFBFBF 0 3PX 5PX; /*sombra*/
+	-moz- box-shadow: inset #BFBFBF 0 3PX 5PX; /*sombra*/
+	-webkit-box-shadow: inset #BFBFBF 0 3PX 5PX; /*sombra*/
+	-o-box-shadow: inset #BFBFBF 0 3PX 5PX; /*sombra*/
+    border: 1px solid #bbbbbb;
+    
+}
+#progreso{
+width: 30%;
+height: 25px;
+border: 1px solid #7abbff;
+border-top: 1px solid #e4eefa;
+background: linear-gradient(24deg, rgba(5,208,251,1) 28%, rgba(5,183,251,1) 54%, rgba(30,120,228,1) 85%);
+background: -moz-linear-gradient(24deg, rgba(5,208,251,1) 28%, rgba(5,183,251,1) 54%, rgba(30,120,228,1) 85%);
+background: -webkit-linear-gradient(24deg, rgba(5,208,251,1) 28%, rgba(5,183,251,1) 54%, rgba(30,120,228,1) 85%);
+background: -o-linear-gradient(24deg, rgba(5,208,251,1) 28%, rgba(5,183,251,1) 54%, rgba(30,120,228,1) 85%);
+border-radius: 4px;
+transition: all 1s ease;
+-moz-transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+
+}
+#progreso:hover{
+	width: 70%;
+}
